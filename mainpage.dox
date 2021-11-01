@@ -820,7 +820,7 @@ echotest.createOffer({
  * <tr><td>ECMAScript</td><td>janus.es.js</td><td>\c --enable-javascript-es-module</td></tr>
  * <tr><td>Universal Module Definition (UMD)</td><td>janus.umd.js</td><td>\c --enable-javascript-umd-module</td></tr>
  * <tr><td>CommonJS</td><td>janus.cjs.js</td><td>\c --enable-javascript-common-js-module</td></tr>
- * <tr><td>Immediately Invoked Function Expression (IIFE)</td><td>janus.iife.js</td><td>\c --enable-javascript-iffe-module</td></tr>
+ * <tr><td>Immediately Invoked Function Expression (IIFE)</td><td>janus.iife.js</td><td>\c --enable-javascript-iife-module</td></tr>
  * </table>
  *
  * The \c --enable-all-js-modules shortcut is available, in case you want to enable and build them all.
@@ -843,7 +843,7 @@ echotest.createOffer({
  \verbatim
  cd ./npm
  npm install
- npm run rollup -- --o /path/to/desired/output/file-name.js --f cjs # or es, iffe, umd, amd, ...
+ npm run rollup -- --o /path/to/desired/output/file-name.js --f cjs # or es, iife, umd, amd, ...
  \endverbatim
  *
  * Using \c npm directly is useful if you want to build the JavaScript modules only, without building Janus itself
